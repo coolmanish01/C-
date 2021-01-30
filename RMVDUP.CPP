@@ -1,7 +1,7 @@
 #include<iostream.h>
 #include<conio.h>
 void main(){
-	int ar[10],n,m2;
+	int ar[10],n;
 	clrscr();
 	cout<<"Enter size of array : ";
 	cin>>n;
