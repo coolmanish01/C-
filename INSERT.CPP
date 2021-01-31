@@ -16,7 +16,7 @@ void main(){
 	int ch,key;
 	int no=n;//assign value of n to no
 	cin>>ch;
-	cout<<"Enter you Element to Insert : ";
+	cout<<"Enter your Element to Insert : ";
 	cin>>key;
 	switch(ch){
 		case 1:{
