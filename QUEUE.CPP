@@ -17,8 +17,8 @@ void main(){
 	queue ob1;
 	clrscr();
 	do{
-		cout<<"\n\nPress 1 for Push Operation"
-		      "\nPress 2 for Pop Operation"
+		cout<<"\n\nPress 1 for Insert"
+		      "\nPress 2 for Delete"
 		      "\nPress 3 to Display Queue"
 		      "\nPress 4 to Exit"
 		      "\nEnter Your Choice : ";
