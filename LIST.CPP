@@ -89,5 +89,4 @@ void main(){
 			default:cout<<"Please Enter a valid Input!";
 		}
 	}while(1);
-	getch();
 }
