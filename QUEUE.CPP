@@ -50,7 +50,7 @@ void queue::insert(){
 		print();
 	}
 	else
-		cout<<"\nQueue Overflow";
+		cout<<"\nQueue is full";
 }
 void queue::del(){
 	if(f==-1)
