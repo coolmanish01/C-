@@ -4,9 +4,9 @@
 class queue{
 	int ar[10],f,r,key,size;
 	public:
-	void display();
-	void push();
-	void pop();
+	void print();
+	void insert();
+	void del();
 queue(){
 	f=r=-1;
 	size=5;
@@ -25,11 +25,11 @@ void main(){
 		int ch;
 		cin>>ch;
 		switch(ch){
-			case 1:ob1.push();
+			case 1:ob1.insert();
 				break;
-			case 2:ob1.pop();
+			case 2:ob1.del();
 				break;
-			case 3:ob1.display();
+			case 3:ob1.print();
 				break;
 			case 4:exit(0);
 
@@ -37,7 +37,7 @@ void main(){
 		}
 	}while(1);
 }
-void queue::push(){
+void queue::insert(){
 	if(r<size-1){
 		cout<<"\nEnter the Element to Insert : ";
 		cin>>key;
@@ -47,24 +47,24 @@ void queue::push(){
 		else
 			r=r+1;
 		ar[r]=key;
-		display();
+		print();
 	}
 	else
 		cout<<"\nQueue Overflow";
 }
-void queue::pop(){
+void queue::del(){
 	if(f==-1)
 		cout<<"\nQueue is Empty";
 	else if(f==r){
 		f=r=-1;
-		display();
+		print();
 	}
 	else{
 		f++;
-		display();
+		print();
 	}
 }
-void queue::display(){
+void queue::print(){
 	if(f==-1)
 		cout<<"\nQueue is Empty \n";
 	else{
