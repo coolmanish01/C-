@@ -19,7 +19,7 @@ void main(){
 		cout<<"\n\tEnter Your 1st Matrix : \n";
 		for(i=0;i<m1;i++){
 			for(j=0;j<n1;j++){
-				cout<<"Enter B["<<i<<"]["<<j<<"] :";
+				cout<<"Enter A["<<i<<"]["<<j<<"] :";
 				cin>>A[i][j];
 			}
 		}
