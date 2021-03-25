@@ -1,9 +1,10 @@
-#include <iostream>
-using namespace std;
+#include <iostream.h>
+#include <conio.h>
 int main(){
     int ar[20],n,i;
     cout<<"Enter size of Array ";
     cin>>n;
+    clrscr();
     for(i=0;i<n;i++){
         cin>>ar[i];
     }
@@ -18,5 +19,6 @@ int main(){
     for(i=0;i<l;i++){
         cout<<ar[i]<<"\t";
     }
+    getch();
     return 0;
 }
