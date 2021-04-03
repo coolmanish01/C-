@@ -8,7 +8,7 @@ int main(int a, char* argv[]){
 		cout<<"No. of arguments : "<<a;
 		return 1;
 	}
-	char source[30], target[30],ch;
+	char ch;
 	ifstream fin(argv[1]);
 	if(fin==0){
 		cout<<"\n File doesn't exist";
